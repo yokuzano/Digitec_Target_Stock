@@ -68,4 +68,5 @@ To set the limit of product the script will update go to line 270 to update the 
 
 # Upgrade possible
 - Multi task to run REST commands in parallel
+- Update chromedriver automatically to avoid version issue
 - ... plenty of things actually
