@@ -1,5 +1,4 @@
-# DigitecScript
-
+# Target Stock Script
 ## Goal
 The goal of the script is to update the target stock of a product in the ERP system.
 The script reads the target stock from an excel file and updates the target stock in the ERP system online.
@@ -11,11 +10,12 @@ Software needed :
 - Google Chrome
 
 To run the script you need to install the following packages:
-- selenium == 4.9.1
-- pandas == 2.0.1
-- bs4 == 0.0.1
-- requests == 2.30.0
-- psutil==2023.4.0
+- selenium==4.9.1
+- pandas
+- beautifulsoup4==4.13.4
+- requests==2.30.0
+- psutil==7.0.0
+
 
 You can install them with the following command in the terminal:
 ```
@@ -64,3 +64,8 @@ To set the limit of product the script will update go to line 270 to update the 
 - Replace the old chromedriver.exe with the new one inside the **requirement** folder
 
 ![image](https://github.com/user-attachments/assets/b593b720-805a-47ef-a290-1879cfb18063)
+
+
+## Upgrade possible
+- Multi task to run REST commands in parallel
+- ... plenty of things actually
